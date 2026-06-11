@@ -149,7 +149,7 @@ One of the most widely used MSA programs.
 
 A scalable and efficient modern MSA tool.
 
-**Guide Trees**
+****Guide Trees****
 
 ****UPGMA****
 
