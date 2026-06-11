@@ -44,144 +44,151 @@ Genome Assembly
         ↓
 Biological Interpretation
 ```
-1. Evolutionary Concepts and Sequence Conservation
+
+## 1. Evolutionary Concepts and Sequence Conservation
 
 The foundation of sequence analysis is understanding how biological sequences evolve over time.
 
-Homology
+**Homology**
 
 Homology describes sequences that originated from a common ancestor.
 
-Orthologs
+**Orthologs**
 
 Orthologous genes arise through speciation events and are found in different species.
 
-Paralogs
+**Paralogs**
 
 Paralogous genes arise through gene duplication events within a genome.
 
-Sequence Similarity
+**Sequence Similarity**
 
 Sequence similarity measures how closely two sequences resemble each other. High similarity often suggests evolutionary relatedness.
 
-Sequence Conservation
+**Sequence Conservation**
 
 Conserved regions remain relatively unchanged during evolution because they are important for biological function.
 
-Substitution Matrices
+**Substitution Matrices**
 
 To evaluate sequence similarity, substitution matrices are used.
 
-PAM
+**PAM**
 
 Based on evolutionary models of amino acid substitution.
 
-BLOSUM
+**BLOSUM**
 
 Based on observed amino acid substitutions in conserved protein families.
 
-2. Sequence Alignment
+## 2. Sequence Alignment
 
 Sequence alignment compares biological sequences to identify conserved regions and evolutionary relationships.
 
-Global Alignment
+**Global Alignment**
 
 Compares the entire length of two sequences.
 
-Needleman-Wunsch Algorithm
+**Needleman-Wunsch Algorithm**
 
 Used for optimal global sequence alignment.
 
-Local Alignment
+**Local Alignment**
 
 Finds the best matching region between two sequences.
 
-Smith-Waterman Algorithm
+**Smith-Waterman Algorithm**
 
 Used for optimal local sequence alignment.
 
-Insertions and Deletions (Indels)
+**Insertions and Deletions (Indels)**
 
 Evolutionary events that introduce or remove nucleotides or amino acids.
 
-Gap Penalties
+**Gap Penalties**
 Linear Gap Penalty
 
 Each gap position receives the same penalty.
 
-Affine Gap Penalty
+**Affine Gap Penalty**
 
 Opening a gap receives a higher penalty than extending an existing gap.
 
-Dynamic Programming
+**Dynamic Programming**
 
 A computational strategy used to identify optimal alignments efficiently.
 
-3. Multiple Sequence Alignment (MSA)
+## 3. Multiple Sequence Alignment (MSA)
 
 Multiple Sequence Alignment extends pairwise alignment to three or more sequences.
 
-Why Use MSA?
+**Why Use MSA?**
 
 MSA helps identify:
 
-Conserved residues
-Functional domains
-Evolutionary relationships
-Sequence motifs
-Progressive Alignment
+- Conserved residues
+- Functional domains
+- Evolutionary relationships
+- Sequence motifs
+  
+**Progressive Alignment**
 
 Most MSA tools use progressive alignment strategies.
 
-Workflow
-Perform pairwise alignments.
-Calculate sequence distances.
-Build a guide tree.
-Align sequences progressively.
-ClustalW
+**Workflow**
+- 1. Perform pairwise alignments.
+- 2. Calculate sequence distances.
+- 3. Build a guide tree.
+- 4. Align sequences progressively.
+     
+**ClustalW**
 
 One of the most widely used MSA programs.
 
-Clustal Omega
+**Clustal Omega**
 
 A scalable and efficient modern MSA tool.
 
-Guide Trees
-UPGMA
+**Guide Trees**
+
+***UPGMA***
 
 Assumes a constant evolutionary rate.
 
-Neighbor Joining
+**Neighbor Joining**
 
 Does not assume equal evolutionary rates and is often more realistic.
 
-Applications
-Phylogenetic analysis
-Conserved motif detection
-Comparative genomics
-4. Biological Sequence Motifs
+- Applications
+- Phylogenetic analysis
+- Conserved motif detection
+- Comparative genomics
+
+## 4. Biological Sequence Motifs
 
 A motif is a short conserved sequence associated with a biological function.
 
-Protein Localization Signals
+**Protein Localization Signals**
 
 Motifs that direct proteins to specific cellular compartments.
 
 Examples:
 
-Signal peptides
-Mitochondrial targeting peptides
-Chloroplast transit peptides
-Peroxisomal targeting signals
-Nuclear Localization Signals (NLS)
+- Signal peptides
+- Mitochondrial targeting peptides
+- Chloroplast transit peptides
+- Peroxisomal targeting signals
+  
+**Nuclear Localization Signals (NLS)**
 
 Short motifs that direct proteins into the nucleus.
 
-Transcription Factor Binding Sites
+**Transcription Factor Binding Sites**
 
 DNA motifs recognized by transcription factors to regulate gene expression.
 
-Motif Representation
+**Motif Representation**
+
 Consensus Sequences
 
 Represent the most common residue at each position.
