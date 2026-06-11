@@ -81,9 +81,10 @@ Conservation: changes at a specific position of an amino acid (or less commonly,
 
 To evaluate sequence similarity, substitution matrices are used.
 
-- *PAM*
-
-Based on evolutionary models of amino acid substitution. 
+- **1. PAM**
+- 
+      Point Accepted Mutation Matrix
+      Based on evolutionary models of amino acid substitution
 
 1 PAM unit: a series of accepted point mutations (and no insertions
 of deletions) has converted S1 to S2 with an average of one accepted
@@ -107,9 +108,21 @@ Notes:
 - Higher PAM values represent greater evolutionary divergence.
 - PAM250 is used for comparing distantly related protein sequences.
 
-- *BLOSUM*
+**2. BLOSUM**
+
+Blocks SUbstitution Matrix
 
 Based on observed amino acid substitutions in conserved protein families.
+
+<img width="902" height="681" alt="image" src="https://github.com/user-attachments/assets/5084ae2f-a787-4a4f-b898-cf2d4ac9dc21" />
+
+<img width="906" height="684" alt="image" src="https://github.com/user-attachments/assets/1cd5129e-f98c-41bf-8b9e-a7a13e5558fa" />
+
+Positive score → substitution occurs frequently in related proteins.
+Negative score → substitution is rare.
+Higher positive score → stronger evolutionary conservation.
+
+
 
 ## 2. Sequence Alignment
 
