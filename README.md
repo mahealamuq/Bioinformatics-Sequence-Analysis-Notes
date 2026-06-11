@@ -51,7 +51,10 @@ The foundation of sequence analysis is understanding how biological sequences ev
 
 **Homology**
 
-Homology describes sequences that originated from a common ancestor.
+Homology describes sequences that originated from a common ancestor. Homology is an evolutionary relationship that either exists or not (i.e. it is all-or
+nothing, there are no “degrees of homology”). We may be able to quantify how 
+confident we are in believing that two molecules/sequences are homologous, 
+but they are nonetheless either homologous or non-homologous. Two sequences are 95% similar or identical. we cannot say 95% homologous. it shoud be two sequences are homologous with 95% identical.
 
 - **Orthologs**
 
@@ -69,13 +72,40 @@ Sequence similarity measures how closely two sequences resemble each other. High
 
 Conserved regions remain relatively unchanged during evolution because they are important for biological function.
 
+Conservation: changes at a specific position of an amino acid (or less commonly, a DNA sequence) that preserves  the physicochemical properties of the original residue.
+
+<img width="807" height="246" alt="image" src="https://github.com/user-attachments/assets/2c265e8b-9382-4fcd-8dc7-d16d0c70ffcb" />
+
+
 **Substitution Matrices**
 
 To evaluate sequence similarity, substitution matrices are used.
 
 - *PAM*
 
-Based on evolutionary models of amino acid substitution.
+Based on evolutionary models of amino acid substitution. 
+
+1 PAM unit: a series of accepted point mutations (and no insertions
+of deletions) has converted S1 to S2 with an average of one accepted
+point‐mutation event per 100 amino acids. It measures the rate of
+divergence, i.e. the evolutionary distance.
+
+PAM Distance Examples#
+
+| PAM Matrix | Interpretation |
+|------------|---------------|
+| PAM0 | 0 mutations per 100 residues |
+| PAM1 | 1 mutation per 100 residues |
+| PAM10 | 10 mutations per 100 residues |
+| PAM80 | 80 mutations per 100 residues |
+| PAM250 | 250 mutations per 100 residues |
+
+Notes:
+
+- PAM0 represents identical sequences with no evolutionary change.
+- PAM1 indicates approximately 1 accepted mutation per 100 amino acid residues.
+- Higher PAM values represent greater evolutionary divergence.
+- PAM250 is used for comparing distantly related protein sequences.
 
 - *BLOSUM*
 
