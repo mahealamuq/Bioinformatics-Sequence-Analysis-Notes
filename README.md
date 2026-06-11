@@ -19,3 +19,28 @@ After studying these notes, you should be able to:
 - Understand genome assembly strategies and challenges.
 - Apply sequence analysis concepts to modern genomics research.
 
+## Sequence Analysis Workflow
+
+```text
+Biological Sequences
+        ↓
+Evolutionary Relationships
+        ↓
+Sequence Similarity and Conservation
+        ↓
+Pairwise Sequence Alignment
+        ↓
+Multiple Sequence Alignment
+        ↓
+Motif Discovery and Analysis
+        ↓
+Probabilistic Motif Models
+        ↓
+High-Throughput Sequencing
+        ↓
+Quality Assessment
+        ↓
+Genome Assembly
+        ↓
+Biological Interpretation
+```
