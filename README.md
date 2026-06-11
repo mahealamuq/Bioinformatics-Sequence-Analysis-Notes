@@ -53,11 +53,11 @@ The foundation of sequence analysis is understanding how biological sequences ev
 
 Homology describes sequences that originated from a common ancestor.
 
-**Orthologs**
+- **Orthologs**
 
 Orthologous genes arise through speciation events and are found in different species.
 
-**Paralogs**
+- **Paralogs**
 
 Paralogous genes arise through gene duplication events within a genome.
 
@@ -73,11 +73,11 @@ Conserved regions remain relatively unchanged during evolution because they are 
 
 To evaluate sequence similarity, substitution matrices are used.
 
-**PAM**
+- **PAM**
 
 Based on evolutionary models of amino acid substitution.
 
-**BLOSUM**
+- **BLOSUM**
 
 Based on observed amino acid substitutions in conserved protein families.
 
