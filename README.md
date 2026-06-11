@@ -61,9 +61,9 @@ Orthologous genes arise through speciation events and are found in different spe
 
 Paralogous genes arise through gene duplication events within a genome.
 
-**Sequence Similarity**
+**Sequence Similarity or sequence identity**
 
-Sequence similarity measures how closely two sequences resemble each other. High similarity often suggests evolutionary relatedness.
+Sequence similarity measures how closely two sequences resemble each other. High similarity often suggests evolutionary relatedness. High level of sequence similarity usually, but not necessarily indicates evidence for homology. Similar sequence may be orthologs or paralogs.
 
 **Sequence Conservation**
 
