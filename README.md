@@ -151,7 +151,7 @@ A scalable and efficient modern MSA tool.
 
 **Guide Trees**
 
-***UPGMA***
+****UPGMA****
 
 Assumes a constant evolutionary rate.
 
