@@ -136,10 +136,10 @@ MSA helps identify:
 Most MSA tools use progressive alignment strategies.
 
 **Workflow**
-- 1. Perform pairwise alignments.
-- 2. Calculate sequence distances.
-- 3. Build a guide tree.
-- 4. Align sequences progressively.
+1. Perform pairwise alignments.
+2. Calculate sequence distances.
+3. Build a guide tree.
+4. Align sequences progressively.
      
 **ClustalW**
 
@@ -149,17 +149,18 @@ One of the most widely used MSA programs.
 
 A scalable and efficient modern MSA tool.
 
-****Guide Trees****
+**Guide Trees**
 
-****UPGMA****
+*UPGMA*
 
 Assumes a constant evolutionary rate.
 
-**Neighbor Joining**
+*Neighbor Joining*
 
 Does not assume equal evolutionary rates and is often more realistic.
 
-- Applications
+**Applications**
+
 - Phylogenetic analysis
 - Conserved motif detection
 - Comparative genomics
@@ -189,163 +190,170 @@ DNA motifs recognized by transcription factors to regulate gene expression.
 
 **Motif Representation**
 
-Consensus Sequences
+*Consensus Sequences*
 
 Represent the most common residue at each position.
 
-Regular Expressions
+*Regular Expressions*
 
 Allow variation at specific motif positions.
 
-Position Weight Matrices (PWM)
+*Position Weight Matrices (PWM)*
 
 Store probabilities for every residue at every position.
 
-Sequence Logos
+*Sequence Logos*
 
 Visual representations of motif conservation and information content.
 
-5. Probabilistic Motif Models
+## 5. Probabilistic Motif Models
 
 Biological motifs are often variable and require probabilistic representations.
 
-ChIP-seq and Motif Discovery
+**ChIP-seq and Motif Discovery**
 
 ChIP-seq experiments identify DNA regions bound by transcription factors.
 
 These regions can be analysed to discover enriched sequence motifs.
 
-Shannon Entropy
+**Shannon Entropy**
 
 Measures uncertainty at each motif position.
 
-Information Content
+**Information Content**
 
 Measures the degree of conservation within a motif.
 
-Position-Specific Scoring Matrices (PSSMs)
+**Position-Specific Scoring Matrices (PSSMs)**
 
 PSSMs score motif matches using probabilities rather than exact sequence matches.
 
-Motif Scanning
+**Motif Scanning**
 
 Genome-wide searches for motif occurrences using PWM or PSSM models.
 
-Applications
-Regulatory genomics
-Transcription factor analysis
-ChIP-seq interpretation
-Functional annotation
-6. High-Throughput Sequencing and Genome Assembly
+**Applications**
+- Regulatory genomics
+- Transcription factor analysis
+- ChIP-seq interpretation
+- Functional annotation
+  
+## 6. High-Throughput Sequencing and Genome Assembly
 
 Modern sequencing technologies generate millions of short DNA reads.
 
-Next-Generation Sequencing (NGS)
+**Next-Generation Sequencing (NGS)**
 
 Common sequencing platforms include:
 
-Illumina
-PacBio
-Oxford Nanopore
-FASTQ Format
+- Illumina
+- PacBio
+- Oxford Nanopore
+- FASTQ Format
 
 The standard format for storing sequencing reads and quality scores.
 
-Phred Quality Scores
+**Phred Quality Scores**
 
 Used to estimate sequencing accuracy.
 
 Higher Phred scores indicate greater confidence in base calls.
 
-Read Quality Assessment
+**Read Quality Assessment**
 
 Quality control is performed before downstream analyses.
 
 Common tools:
 
-FastQC
-MultiQC
-fastp
-Trimmomatic
-Genome Assembly
+- FastQC
+- MultiQC
+- fastp
+- Trimmomatic
+- Genome Assembly
 
 The process of reconstructing genomes from sequencing reads.
 
-Overlap-Layout-Consensus (OLC)
+**Overlap-Layout-Consensus (OLC)**
 
 Traditional assembly strategy based on read overlaps.
 
-De Bruijn Graphs
+**De Bruijn Graphs**
 
 Modern assembly approach based on k-mer graphs.
 
-Important Assembly Concepts
-k-mers
+**Important Assembly Concepts**
+
+*k-mers*
 
 Short sequence fragments of length k.
 
-Contigs
+*Contigs*
 
 Continuous assembled sequences without gaps.
 
-Scaffolds
+*Scaffolds*
 
 Groups of contigs linked together using additional information.
 
-Coverage
+*Coverage*
 
 The average number of times each base is sequenced.
 
-N50
+*N50*
 
 A metric used to evaluate assembly quality.
 
-Assembly Challenges
-Repetitive sequences
-Sequencing errors
-Low coverage
-Large genomes
-Heterozygosity
-Common Bioinformatics Tools
-Sequence Alignment
-BLAST
-EMBOSS Needle
-EMBOSS Water
-Multiple Sequence Alignment
-ClustalW
-Clustal Omega
-MUSCLE
-MAFFT
-Motif Analysis
-MEME
-FIMO
-JASPAR
-TRANSFAC
-Quality Control
-FastQC
-MultiQC
-fastp
-Trimmomatic
-Genome Assembly
-SPAdes
-Velvet
-SOAPdenovo
-Canu
-Flye
-Applications of Sequence Analysis
-Evolutionary Biology
-Comparative Genomics
-Functional Genomics
-Regulatory Genomics
-RNA-seq Analysis
-Cancer Genomics
-Metagenomics
-Drug Discovery
-Conclusion
+**Assembly Challenges**
+
+- Repetitive sequences
+- Sequencing errors
+- Low coverage
+- Large genomes
+- Heterozygosity
+
+## Common Bioinformatics Tools
+
+**Sequence Alignment**
+- BLAST
+- EMBOSS Needle
+- EMBOSS Water
+**Multiple Sequence Alignment**
+- ClustalW
+- Clustal Omega
+- MUSCLE
+- MAFFT
+**Motif Analysis**
+- MEME
+- FIMO
+- JASPAR
+- TRANSFAC
+**Quality Control**
+- FastQC
+- MultiQC
+- fastp
+- Trimmomatic
+**Genome Assembly**
+- SPAdes
+- Velvet
+- SOAPdenovo
+- Canu
+- Flye
+## Applications of Sequence Analysis
+- Evolutionary Biology
+- Comparative Genomics
+- Functional Genomics
+- Regulatory Genomics
+- RNA-seq Analysis
+- Cancer Genomics
+- Metagenomics
+- Drug Discovery
+  
+## Conclusion
 
 Sequence analysis provides the foundation for modern bioinformatics by enabling researchers to compare biological sequences, identify conserved regions, discover functional motifs, analyse sequencing data, and reconstruct complete genomes. These methods are widely used in genomics, medicine, biotechnology, and evolutionary biology.
 
-References
+## References
+
 SCIE2100 / BINF6000 Sequence Analysis Lecture Notes
 Zvelebil & Baum – Understanding Bioinformatics
 Durbin et al. – Biological Sequence Analysis
