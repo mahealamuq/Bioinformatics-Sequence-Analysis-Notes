@@ -73,11 +73,11 @@ Conserved regions remain relatively unchanged during evolution because they are 
 
 To evaluate sequence similarity, substitution matrices are used.
 
-- **PAM**
+- *PAM*
 
 Based on evolutionary models of amino acid substitution.
 
-- **BLOSUM**
+- *BLOSUM*
 
 Based on observed amino acid substitutions in conserved protein families.
 
@@ -151,11 +151,11 @@ A scalable and efficient modern MSA tool.
 
 **Guide Trees**
 
-*UPGMA*
+- *UPGMA*
 
 Assumes a constant evolutionary rate.
 
-*Neighbor Joining*
+- *Neighbor Joining*
 
 Does not assume equal evolutionary rates and is often more realistic.
 
