@@ -82,16 +82,16 @@ Conservation: changes at a specific position of an amino acid (or less commonly,
 To evaluate sequence similarity, substitution matrices are used.
 
 - **1. PAM**
-- 
-      Point Accepted Mutation Matrix
-      Based on evolutionary models of amino acid substitution
+  
+Point Accepted Mutation Matrix
+Based on evolutionary models of amino acid substitution
 
 1 PAM unit: a series of accepted point mutations (and no insertions
 of deletions) has converted S1 to S2 with an average of one accepted
 point‐mutation event per 100 amino acids. It measures the rate of
 divergence, i.e. the evolutionary distance.
 
-PAM Distance Examples#
+PAM Distance Examples:
 
 | PAM Matrix | Interpretation |
 |------------|---------------|
@@ -118,9 +118,11 @@ Based on observed amino acid substitutions in conserved protein families.
 
 <img width="906" height="684" alt="image" src="https://github.com/user-attachments/assets/1cd5129e-f98c-41bf-8b9e-a7a13e5558fa" />
 
+```Text
 Positive score → substitution occurs frequently in related proteins.
 Negative score → substitution is rare.
 Higher positive score → stronger evolutionary conservation.
+```
 
 
 
