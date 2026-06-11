@@ -5,7 +5,7 @@ Sequence analysis is one of the fundamental areas of bioinformatics that focuses
 
 This repository provides a step-by-step guide to sequence analysis, starting from basic evolutionary concepts and progressing through sequence alignment, motif discovery, and high-throughput sequencing technologies.
 
-##Learning Objectives
+## Learning Objectives
 
 After studying these notes, you should be able to:
 
