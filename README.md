@@ -130,7 +130,7 @@ Higher positive score → stronger evolutionary conservation.
 
 Sequence alignment compares biological sequences to identify conserved regions and evolutionary relationships. The fundamental way of comparing sequences. Aim to quantify similarity among a set of (two or more) sequences, which informs shared homology. Alignment is a position-by-position hypothesis of homology.
 
-```text
+```
 Applications:
 - inference of phylogenetic(i.e. evolutionary) relationships 
 (dissimilarity as a measure of evolutionary distance)
