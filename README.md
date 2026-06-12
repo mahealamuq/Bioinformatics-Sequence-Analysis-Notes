@@ -163,12 +163,15 @@ existing bases from (deletion), the genomic DNA. Indels: mutation that includes 
 
 **Gap Penalties**
 Linear Gap Penalty
+Gaps are modelled as a penalty, i.e. assigned as a negative score.Linear gap penalty for a gap of length n, g(n) is g(n) = -n x E, where E is a cost for a single gap. every gap position costs the same.
 
-Each gap position receives the same penalty.
+<img width="715" height="102" alt="image" src="https://github.com/user-attachments/assets/957a7849-7912-47a7-ac09-30d876ea7af5" />
+
 
 **Affine Gap Penalty**
 
 Opening a gap receives a higher penalty than extending an existing gap.
+Affine gap penalty for a gap of length n, g(n) is  g(n) = - O _ (n - 1) x E, where O is the gap open cost, E is the gap extend cost. If O = 3, E = 1, then g(n) = −5. many small gaps cost more than one large gap
 
 **Dynamic Programming**
 
