@@ -145,20 +145,21 @@ on homology evidence to known sequences
 Compares the entire length of two sequences.
 
 
-- Needleman-Wunsch Algorithm
-Used for optimal global sequence alignment.
+- Needleman-Wunsch Algorithm: Used for optimal global sequence alignment.
 
 **Local Alignment**
 
 Finds the best matching region between two sequences.
-```text
-- Smith-Waterman Algorithm**
-Used for optimal local sequence alignment.
-```
+
+- Smith-Waterman Algorithm: Used for optimal local sequence alignment.
 
 **Insertions and Deletions (Indels)**
 
-Evolutionary events that introduce or remove nucleotides or amino acids.
+Evolutionary events that introduce or remove nucleotides or amino acids. Evolutionary events that result in the introduction of new bases into (insertion), or the removal of 
+existing bases from (deletion), the genomic DNA. Indels: mutation that includes both insertions, deletions and the combination thereof.
+
+<img width="599" height="184" alt="image" src="https://github.com/user-attachments/assets/a139573e-2c04-46df-991f-f64b59621cb4" />
+
 
 **Gap Penalties**
 Linear Gap Penalty
