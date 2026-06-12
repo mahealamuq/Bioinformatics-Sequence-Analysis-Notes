@@ -128,23 +128,34 @@ Higher positive score → stronger evolutionary conservation.
 
 ## 2. Sequence Alignment
 
-Sequence alignment compares biological sequences to identify conserved regions and evolutionary relationships.
+Sequence alignment compares biological sequences to identify conserved regions and evolutionary relationships. The fundamental way of comparing sequences. Aim to quantify similarity among a set of (two or more) sequences, which informs shared homology. Alignment is a position-by-position hypothesis of homology.
+
+```text
+Applications:
+- inference of phylogenetic(i.e. evolutionary) relationships 
+(dissimilarity as a measure of evolutionary distance)
+- predictionof functions, structures and sequence features 
+(e.g. binding sites, splicing signals) in novel sequences based 
+on homology evidence to known sequences
+```
+
 
 **Global Alignment**
 
 Compares the entire length of two sequences.
 
-**Needleman-Wunsch Algorithm**
-
+```texy
+- Needleman-Wunsch Algorithm
 Used for optimal global sequence alignment.
+```
 
 **Local Alignment**
 
 Finds the best matching region between two sequences.
-
-**Smith-Waterman Algorithm**
-
+```text
+- Smith-Waterman Algorithm**
 Used for optimal local sequence alignment.
+```
 
 **Insertions and Deletions (Indels)**
 
