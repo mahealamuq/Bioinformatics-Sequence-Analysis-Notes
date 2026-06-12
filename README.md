@@ -171,7 +171,9 @@ Gaps are modelled as a penalty, i.e. assigned as a negative score.Linear gap pen
 **Affine Gap Penalty**
 
 Opening a gap receives a higher penalty than extending an existing gap.
-Affine gap penalty for a gap of length n, g(n) is  g(n) = - O _ (n - 1) x E, where O is the gap open cost, E is the gap extend cost. If O = 3, E = 1, then g(n) = −5. many small gaps cost more than one large gap
+Affine gap penalty for a gap of length n, g(n) is  g(n) = - O _ (n - 1) x E, where O is the gap open cost, E is the gap extend cost. If O = 3, E = 1, then g(n) = −5. many small gaps cost more than one large gap.
+<img width="797" height="577" alt="image" src="https://github.com/user-attachments/assets/70ecef76-47bb-4777-87c2-222b3392f71e" />
+
 
 **Dynamic Programming**
 
@@ -249,19 +251,19 @@ DNA motifs recognized by transcription factors to regulate gene expression.
 
 **Motif Representation**
 
-*Consensus Sequences*
+- Consensus Sequences
 
 Represent the most common residue at each position.
 
-*Regular Expressions*
+- Regular Expressions
 
 Allow variation at specific motif positions.
 
-*Position Weight Matrices (PWM)*
+- Position Weight Matrices (PWM)
 
 Store probabilities for every residue at every position.
 
-*Sequence Logos*
+- Sequence Logos
 
 Visual representations of motif conservation and information content.
 
@@ -342,23 +344,23 @@ Modern assembly approach based on k-mer graphs.
 
 **Important Assembly Concepts**
 
-*k-mers*
+- k-mers
 
 Short sequence fragments of length k.
 
-*Contigs*
+- Contigs
 
 Continuous assembled sequences without gaps.
 
-*Scaffolds*
+- Scaffolds
 
 Groups of contigs linked together using additional information.
 
-*Coverage*
+- Coverage
 
 The average number of times each base is sequenced.
 
-*N50*
+- N50
 
 A metric used to evaluate assembly quality.
 
