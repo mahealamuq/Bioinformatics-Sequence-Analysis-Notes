@@ -144,10 +144,9 @@ on homology evidence to known sequences
 
 Compares the entire length of two sequences.
 
-```texy
+
 - Needleman-Wunsch Algorithm
 Used for optimal global sequence alignment.
-```
 
 **Local Alignment**
 
